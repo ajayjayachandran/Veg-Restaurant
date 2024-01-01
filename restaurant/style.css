@@ -1,0 +1,101 @@
+
+:root{
+--green:rgb(30, 239, 37);
+--black:black;
+--light-color:white;
+--box-shadow:0 -5rem 1.5rem blue;
+}
+
+*{
+    font-family: 'Satisfy', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transform: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(67, 7, 232);
+    padding: 1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    margin-top:0px;
+
+}
+
+header .navbar a{
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding: .5rem  1.5rem;
+    color: var(--light-color);
+}
+
+header .navbar a:hover{
+    color:white ;
+    background: var(--green);
+}
+
+#icon{
+    color:#65d575;
+    font-size:30px;
+    letter-spacing:10px;
+}
+
+.image{
+    position:relative;
+     top:0px;
+     background:url('https://w0.peakpx.com/wallpaper/514/512/HD-wallpaper-indian-restaurant-san-francisco-deccan-house-sf-north-indian-food.jpg');
+     background-repeat:no-repeat;
+     height:785px;
+     background-size:cover;
+ }
+
+h2{
+    color:#dcebeb;
+    font-size:xxx-large;
+    position:relative;
+    top:230px;
+    left:10px;
+}
+
+p{
+    color:#c9b5b1;
+    font-size:x-large;
+    position:relative;
+    top:230px;
+    left:10px;
+    
+}
+
+button{
+    height:30px;
+    background:#ce6217;
+    border-radius:5px;
+    width:100px;
+    position:relative;
+    top:240px;
+    left:10px;
+    
+}
